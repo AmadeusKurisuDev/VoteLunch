@@ -9,7 +9,6 @@
 </head>
 <body>
     <?php
-        include("header.php");
         include_once("votazione.php");
     ?>
 </body>
