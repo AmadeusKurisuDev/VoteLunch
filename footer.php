@@ -1,4 +1,4 @@
-<div  class="header">
+<div class="footer">
     <h1>
         Sito a cura di:
         <br>

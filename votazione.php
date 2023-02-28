@@ -30,5 +30,5 @@
         mysqli_query($conn, $query);
         echo'<meta http-equiv="refresh" content="1; URL=votazione.php?scelta=p"/>';
     }
-    include("piedino.php");
+    include("footer.php");
 ?>

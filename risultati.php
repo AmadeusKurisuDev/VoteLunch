@@ -20,7 +20,9 @@ include("header.php");
 
     
 ?>
+<a class='testo' href="./index.php">Torna alla home</a>
 <center><canvas id="myChart"></canvas></center>
+<?php include("footer.php"); ?>
 
 <script>
     // Recupero il canvas e lo salvo in una variabile
@@ -84,6 +86,3 @@ var config = {
 var myChart = new Chart(ctx, config);
 
 </script>
-
-
-<?php include("piedino.php");?>

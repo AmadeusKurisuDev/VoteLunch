@@ -13,7 +13,6 @@ body{
 }
 
 .header{
-    width: 100%;
     height:auto;
     padding: 10px;
     background-color: rgb(87, 120, 180);
@@ -23,6 +22,24 @@ body{
     color: #fff;
 }
 
-#myChart{width: 80%;height: 80%;margin-top: 50px;margin-bottom: 50px;}
-.testo{color: antiquewhite;text-decoration: none;font-size: 20px;}
+.footer {
+  background-color: #333; /* colore di sfondo del footer */
+  color: #fff; /* colore del testo */
+  padding: 20px; /* spazio interno al footer */
+  text-align: center; /* allinea il testo al centro del footer */
+  left: 0;
+  bottom: 0;
+}
+
+.footer a {
+  color: #fff; /* colore dei link all'interno del footer */
+  text-decoration: none; /* rimuove la sottolineatura dei link */
+  transition: color 0.3s ease; /* effetto di transizione del colore dei link */
+}
+
+.footer a:hover {
+  color: #f2f2f2; /* colore dei link al passaggio del mouse */
+}
+#myChart{width: 80%;max-height: 500px;margin-top: 50px;margin-bottom: 50px;}
+.testo{color: black;text-decoration: none;font-size: 20px;}
 .testo:hover{text-decoration: underline;}
