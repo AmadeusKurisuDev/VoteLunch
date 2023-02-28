@@ -16,7 +16,7 @@
                 $query="SELECT * FROM ristoranti";
                 $ris=mysqli_query($conn, $query);
                 while($row=mysqli_fetch_array($ris)){
-                    echo"<option>".$row['nome']."</option>"
+                    echo"<option value=".$row['id'].">".$row['nome']."</option>"
                 }
             ?>
         </select>
@@ -24,7 +24,11 @@
     </form>
     <?php
         if(isset($_POST['scelta'])){
-            
+            $query="SELECT voti_tot FROM ristoranti WHERE id='{$_POST['scelta']}'";
+            $row=mysqli_fetch_array(mysqli_query($conn, $query));
+            $temp=$row['voti_tot']+1;
+            $query="UPDATE ristoranti SET voti_tot='{$temp}' where id='{$_POST['scelta']}'";
+            mysqli_query($conn, $query);
         }
     ?>
 </body>
