@@ -11,7 +11,7 @@
 ?>
 <body>
     <form method="POST">
-        <select>
+        <select required nane='scelta'>
             <?php
                 $query="SELECT * FROM ristoranti";
                 $ris=mysqli_query($conn, $query);
@@ -20,6 +20,12 @@
                 }
             ?>
         </select>
+        <button class="pulsante" type="submit">Invia</button>
     </form>
+    <?php
+        if(isset($_POST['scelta'])){
+            
+        }
+    ?>
 </body>
 </html>
