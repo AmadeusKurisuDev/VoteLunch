@@ -9,7 +9,7 @@ Un browser web moderno (come Google Chrome, Firefox, Safari, Edge, etc.)
 Connessione internet
 
 ### Come usare il sito
-Accedere al sito web all'indirizzo www.votelunch.com.
+Accedere al sito web all'indirizzo https://ripasso.ddns.net/tpsit/.
 Visualizzare la lista dei ristoranti disponibili per il pranzo dei 100 giorni.
 Selezionare il ristorante preferito dalla lista.
 Effettuare il login utilizzando le credenziali fornite (se necessario).
