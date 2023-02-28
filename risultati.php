@@ -1,4 +1,6 @@
+<link rel="stylesheet" href="assets/css/app.css">
 <?php
+include("header.php");
     include_once("conn.php");
 ?>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -18,8 +20,7 @@
 
     
 ?>
-<a href="./index.php">Torna alla home</a>
-<canvas id="myChart"></canvas>
+<center><canvas id="myChart"></canvas></center>
 
 <script>
     // Recupero il canvas e lo salvo in una variabile
@@ -85,3 +86,4 @@ var myChart = new Chart(ctx, config);
 </script>
 
 
+<?php include("piedino.php");?>
