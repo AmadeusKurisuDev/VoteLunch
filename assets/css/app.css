@@ -1,13 +1,53 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-#myChart {
-    max-height: 20px;
-    max-width: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+body{
+    height: 100%;
+    width: 100%;
 }
+
+.header{
+    height:auto;
+    padding: 10px;
+    background-color: rgb(87, 120, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.footer {
+  background-color: #333; /* colore di sfondo del footer */
+  color: #fff; /* colore del testo */
+  padding: 20px; /* spazio interno al footer */
+  text-align: center; /* allinea il testo al centro del footer */
+  left: 0;
+  bottom: 0;
+}
+
+.footer a {
+  color: #fff; /* colore dei link all'interno del footer */
+  text-decoration: none; /* rimuove la sottolineatura dei link */
+  transition: color 0.3s ease; /* effetto di transizione del colore dei link */
+}
+
+#repo{
+    text-decoration: underline;
+}
+
+#repo:hover {
+    color: aquamarine;
+}
+
+.footer a:hover {
+  color: #f2f2f2; /* colore dei link al passaggio del mouse */
+}
+#myChart{width: 80%;max-height: 500px;margin-top: 50px;margin-bottom: 50px;}
+.testo{color: black;text-decoration: none;font-size: 20px;}
+.testo:hover{text-decoration: underline;}
