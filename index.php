@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Votazioni per pranzo dei 100 giorni</title>
     <link rel="stylesheet" href="assets/css/app.css">
+    <meta http-equiv="refresh" content="1; URL=votazione.php"/>
 </head>
 <body>
-    <?php
-        include_once("votazione.php");
-    ?>
 </body>
 </html>
