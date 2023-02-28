@@ -18,8 +18,11 @@
 
     
 ?>
+<link rel="stylesheet" href="assets/css/app.css">
+<?php include("header.php"); ?>
 <a href="./index.php">Torna alla home</a>
 <canvas id="myChart"></canvas>
+<?php include("footer.php"); ?>
 
 <script>
     // Recupero il canvas e lo salvo in una variabile
