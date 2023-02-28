@@ -1,13 +1,23 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-#myChart {
-    max-height: 20px;
-    max-width: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(87, 120, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
 }
