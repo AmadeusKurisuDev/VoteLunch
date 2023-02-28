@@ -21,3 +21,24 @@ body{
     justify-content: center;
     color: #fff;
 }
+
+.footer {
+  background-color: #333; /* colore di sfondo del footer */
+  color: #fff; /* colore del testo */
+  padding: 20px; /* spazio interno al footer */
+  text-align: center; /* allinea il testo al centro del footer */
+  position: fixed; /* posiziona il footer in fondo alla pagina */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* larghezza del footer al 100% della larghezza della pagina */
+}
+
+.footer a {
+  color: #fff; /* colore dei link all'interno del footer */
+  text-decoration: none; /* rimuove la sottolineatura dei link */
+  transition: color 0.3s ease; /* effetto di transizione del colore dei link */
+}
+
+.footer a:hover {
+  color: #f2f2f2; /* colore dei link al passaggio del mouse */
+}
