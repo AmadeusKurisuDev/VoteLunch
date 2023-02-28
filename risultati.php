@@ -18,6 +18,7 @@
 
     
 ?>
+<a href="./index.php">Torna alla home</a>
 <canvas id="myChart"></canvas>
 
 <script>
