@@ -1,5 +1,6 @@
 <?php
     include("conn.php");
+    unset($_POST['scelta']);
 ?>
 <form method="POST">
         <select required name='scelta'>
